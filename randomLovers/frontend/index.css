@@ -1,0 +1,187 @@
+#title{    
+    color:whitesmoke;
+    margin-top: 0px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url('resources/images/backtitle.jpg');
+    background-size: 2500px;
+    font-size: 100px;
+    opacity: 0.9;
+}
+
+#parentInfo{
+    display: flex;
+    justify-content:center;
+    height: 500px;
+    background-color:#EEEEEE;
+    margin-top: 0px;
+    align-items: center;
+}
+
+#warningText{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+#warningText1{
+    font-size: 30px;
+    color: black;
+}
+
+#hotTopicTitle{
+    color:black;
+    margin-top: 0px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+}
+
+#hotPicture{
+    width: 40%;
+    margin-top: 25px;
+}
+
+#hotTopicDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#separation{
+    background-color:pink;
+}
+
+#parentHotTopic{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+#veryHotPicture{
+    border: solid #242325 8px;
+}
+
+#imageLegend{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 2px;
+    color:whitesmoke;
+    background-color: #242325;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+#parentHotTopic1{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+#picture{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+#picture:hover{
+    opacity: 0.65;
+}
+
+#parentButton{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+#allButton{
+    width: 150%;
+}
+
+#allButton:hover{
+    background: url("resources/images/all-button-hover.png");
+}
+
+#randomButton{
+    width: 150%;
+}
+
+#randomButton:hover{
+    mask-image: url("resources/images/random-button-hover.png");
+}
+
+#childButtonAll{
+    width: 100px;
+    font-size: 40px;
+    margin-left: 350px;
+
+}
+
+#childButtonRandom{
+    width: 100px;
+    margin-right: 350px;
+}
+
+#backgroud{
+    background-color:#EEEEEE;
+}
+
+#teamName{
+    margin-right: 1000px;
+}
+
+#teamInfo{
+    background-color:#242325;
+    margin-bottom: 0px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: whitesmoke;
+}
+
+#teamLogo{
+    margin-right: 1665px;
+    width: 10%;
+}
+
+#icons{
+    float: right;
+    width: 7.5%;
+}
+
+#backToTop{
+    display: flex;
+    justify-content: right;
+    margin-left: 2025px;
+    margin-bottom: 10px;
+    color: #242325 ;
+    width: 4%;
+}
+
+#backToTop:hover{
+    mask-image: url("resources/images/top-button-hover.png");
+}
+
+#sound {
+    display: flex;
+    justify-content: right;
+    margin-left: -350px;
+}

@@ -1,0 +1,103 @@
+#header1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    background-color: pink;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+#parentHotTopic1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#picture {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#picture:hover {
+    opacity: 0.5;
+}
+
+#imageCaption{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#teamInfo{
+    background-color:#242325;
+    margin: -10px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: whitesmoke;
+}
+
+#teamLogo{
+    margin-right: 1665px;
+    width: 10%;
+}
+
+#icons{
+    float: right;
+    width: 7.5%;
+}
+
+#veryHotPicture{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: solid #242325 8px;
+    text-decoration: none;
+}
+
+#imageLegend{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 2px;
+    color:whitesmoke;
+    background-color: #242325;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#parentButton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#childButtonAll{
+    width: 5%;
+}
+
+#allButton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 65px;
+    margin-left: -46.5px;
+}
